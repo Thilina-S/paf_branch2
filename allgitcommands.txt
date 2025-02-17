@@ -1,0 +1,43 @@
+GIT Bach All Commands
+
+1. Check git version -
+	* git --version
+
+2. intialize a git Repostitory
+	* git init   (Creates a new Git repository in the current folder.)
+
+3. Clone a Repository
+	*git clone <repo_url>   (Copies a remote repository to your local machine.)
+
+4. Check Repository Status
+	*git status   (Shows the current state of your working directory.)
+
+5. Add Files to Staging Area
+	*git add filename.ext (Adds a specific file to the staging area.)
+
+   	*git add . (Adds all changed files to staging.)
+
+6. Commit Changes
+	*git commit -m "Your commit message"
+
+7. Create a New Branch
+	*git branch branch-name  (Creates a new branch.)
+
+8. Switch to Another Branch
+	*git checkout branch-name (git checkout branch-name) //just move to the branch
+
+	*git checkout -b new-branch (Creates and switches to a new branch.)
+
+9. Merge Branches
+	*git merge branch-name
+
+10. Push to Remote Repository
+	*git push origin branch-name  (Uploads commits to the remote repository.)
+
+11. Pull Changes from Remote
+	*git pull origin branch-name
+
+	
+
+
+
